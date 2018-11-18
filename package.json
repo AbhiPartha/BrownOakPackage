@@ -1,0 +1,36 @@
+{
+  "name": "react-components-school-app",
+  "version": "1.0.0",
+  "description": "Pool of components",
+  "main": "distribution/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "babel src --out-dir distribution",
+    "prepublish": "npm run build"
+  },
+  "author": "partha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-arrow-functions": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/react": "^3.4.11",
+    "@storybook/react-native": "^3.4.11",
+    "babel-plugin-react-native-web": "0.9.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.12.0"
+  },
+  "dependencies": {
+    "@storybook/addon-options": "^3.4.3",
+    "react": "^16.5.2",
+    "react-art": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-native": "^0.44.3",
+    "react-native-web": "^0.9.1",
+    "styled-components": "^4.0.0-beta.9"
+  }
+}
