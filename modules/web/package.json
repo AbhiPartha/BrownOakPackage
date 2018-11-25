@@ -23,7 +23,10 @@
     "@babel/register": "^7.0.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.1",
+    "negotiator": ">=0.6.1",
+    "fresh": ">=0.5.2",
+    "hoek": ">=4.2.1"
   },
   "peerDependencies": {
     "react": "^16.5.2",
