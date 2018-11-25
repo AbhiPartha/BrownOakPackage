@@ -1,9 +1,7 @@
-import * as Web from "./web";
-import * as Native from "./native";
+import * as Web from './web'
+import * as Native from './native'
 
-export default {
+export {
     Web,
     Native
 }
-
-

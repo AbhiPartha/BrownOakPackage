@@ -2,3 +2,8 @@
 src
 stories
 theme
+webpack.config.js
+.eslintrc
+.gitignore
+.babelrc
+node_modules

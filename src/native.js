@@ -1,9 +1,8 @@
-import Button from "./atoms/native/Button";
-import CenteredView from "./atoms/native/CenteredView";
+import Button from "./atoms/native/Button"
+import CenteredView from "./atoms/native/CenteredView"
 
-import CenteredActivityIndicator from "./molecules/native/CenteredActivityIndicator";
-import PrimaryButton from "./molecules/native/PrimaryButton";
-
+import CenteredActivityIndicator from "./molecules/native/CenteredActivityIndicator"
+import PrimaryButton from "./molecules/native/PrimaryButton"
 
 export default {
     Atom: {
@@ -15,5 +14,3 @@ export default {
         PrimaryButton
     }
 }
-
-
